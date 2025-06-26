@@ -53,7 +53,7 @@ export default function StoriesSection() {
             &quot;From Traditional Ponds to Global Markets&quot;
           </h3>
           <p className="text-gray-600 mb-6 italic">
-            Pak Suharto's journey from small-scale farmer to ASC-certified supplier showcases how Indonesian innovation transforms traditional aquaculture...
+            Pak Suharto&apos;s journey from small-scale farmer to ASC-certified supplier showcases how Indonesian innovation transforms traditional aquaculture...
           </p>
           <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-md transition-colors">
             Read Full Story

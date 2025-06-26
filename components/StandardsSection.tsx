@@ -70,13 +70,13 @@ export default function StandardsSection() {
 
         {/* Partnerships Grid */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          {partnerships.map((partner, index) => (
+          {partnerships.map((partner) => (
             <motion.div
               key={partner.title}
               className="bg-gray-50 rounded-xl p-6"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
               viewport={{ once: true }}
             >
               <div className="text-center">
