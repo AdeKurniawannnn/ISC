@@ -58,7 +58,7 @@ export default function StandardsSection() {
           transition={{ duration: 0.5, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          {certifications.map((cert, index) => (
+          {certifications.map((cert) => (
             <div
               key={cert}
               className="bg-gray-50 px-8 py-4 rounded-lg font-semibold text-gray-700"

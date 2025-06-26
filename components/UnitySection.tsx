@@ -56,10 +56,10 @@ export default function UnitySection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
-            Uniting Indonesia's Shrimp Excellence
+            Uniting Indonesia&apos;s Shrimp Excellence
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            The Indonesian Shrimp Council represents the collective strength of our nation's leading aquaculture associations.
+            The Indonesian Shrimp Council represents the collective strength of our nation&apos;s leading aquaculture associations.
           </p>
         </motion.div>
 
