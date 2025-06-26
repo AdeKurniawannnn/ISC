@@ -50,7 +50,7 @@ export default function CarbonSection() {
                 Interactive tool for transparency
               </p>
               <p className="text-xs text-white/70 mb-4">
-                Developed with BRIN (Indonesia's National Research Agency)
+                Developed with BRIN (Indonesia&apos;s National Research Agency)
               </p>
               <button 
                 className="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-2 px-6 rounded-md transition-colors">

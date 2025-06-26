@@ -50,7 +50,7 @@ export default function StoriesSection() {
           viewport={{ once: true }}
         >
           <h3 className="text-2xl font-bold text-gray-800 mb-4">
-            "From Traditional Ponds to Global Markets"
+            &quot;From Traditional Ponds to Global Markets&quot;
           </h3>
           <p className="text-gray-600 mb-6 italic">
             Pak Suharto's journey from small-scale farmer to ASC-certified supplier showcases how Indonesian innovation transforms traditional aquaculture...

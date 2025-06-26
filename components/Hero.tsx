@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 
 const stats = [
@@ -33,7 +32,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Indonesia's Premium Shrimp:<br />
+            Indonesia&apos;s Premium Shrimp:<br />
             Where Tradition Meets Excellence
           </motion.h1>
           
@@ -43,7 +42,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            Discover the world's finest shrimp from Indonesia's pristine archipelago waters
+            Discover the world&apos;s finest shrimp from Indonesia&apos;s pristine archipelago waters
           </motion.p>
           
           <motion.p 
@@ -52,7 +51,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            From the crystal-clear waters of Indonesia's 17,000 islands comes the world's most sought-after shrimp. 
+            From the crystal-clear waters of Indonesia&apos;s 17,000 islands comes the world&apos;s most sought-after shrimp. 
             Our unified industry represents over 241,000 metric tons of annual export excellence.
           </motion.p>
 

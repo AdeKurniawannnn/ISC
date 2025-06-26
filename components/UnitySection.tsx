@@ -71,16 +71,16 @@ export default function UnitySection() {
           transition={{ duration: 0.5, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          {associations.map((item, index) => (
+          {associations.map((partner) => (
             <div 
-              key={item.title}
+              key={partner.title}
               className="bg-white rounded-lg p-6 text-center shadow-sm"
             >
               <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                {item.icon}
+                {partner.icon}
               </div>
-              <h3 className="font-semibold text-blue-900 mb-1">{item.title}</h3>
-              <p className="text-sm text-gray-600">{item.subtitle}</p>
+              <h3 className="font-semibold text-blue-900 mb-1">{partner.title}</h3>
+              <p className="text-sm text-gray-600">{partner.subtitle}</p>
             </div>
           ))}
         </motion.div>
@@ -93,13 +93,13 @@ export default function UnitySection() {
           transition={{ duration: 0.5, delay: 0.4 }}
           viewport={{ once: true }}
         >
-          {stats.map((stat, index) => (
-            <div key={stat.label} className="text-center">
+          {stats.map((feature) => (
+            <div key={feature.label} className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">
-                {stat.number}
+                {feature.number}
               </div>
               <div className="text-gray-600">
-                {stat.label}
+                {feature.label}
               </div>
             </div>
           ))}

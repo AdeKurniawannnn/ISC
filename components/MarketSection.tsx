@@ -46,7 +46,7 @@ export default function MarketSection() {
                 Strategic Market Position
               </h3>
               <p className="text-gray-600">
-                Indonesia's strategic position continues to strengthen, with 11% volume growth and 24% value increase in early 2025.
+                Indonesia&apos;s strategic position continues to strengthen, with 11% volume growth and 24% value increase in early 2025.
               </p>
             </div>
           </motion.div>
@@ -89,7 +89,7 @@ export default function MarketSection() {
               viewport={{ once: true }}
             >
               <blockquote className="text-lg italic">
-                "Indonesia's commitment to sustainable practices and quality excellence positions us as the preferred supplier for discerning global buyers."
+                &quot;Indonesia&apos;s commitment to sustainable practices and quality excellence positions us as the preferred supplier for discerning global buyers.&quot;
               </blockquote>
             </motion.div>
           </div>
